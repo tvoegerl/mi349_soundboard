@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tatiana's Soundboard</title>
+</head>
+<body>
+    <h1>
+        Storm Sound Simulator
+    </h1>
+    <p>
+        Simply click on the sound you would like to play.
+    </p>
+    <audio id="rain-sound">
+        <source src="rain.wav" type="audio/wav">
+    </audio>
+
+    <audio id="thunder-sound">
+        <source src="thunder.wav" type="audio/wav">
+    </audio>
+    
+    <audio id="wind-sound">
+        <source src="wind.wav" type="audio/wav">
+    </audio>
+
+    <div id="buttons">
+        <button class="sound-button" id="rain-button" >
+            Rain
+        </button>
+    
+        <button class="sound-button" id="thunder-button" >
+            Thunder
+        </button>
+    
+        <button class="sound-button" id="wind-button" >
+            Wind
+        </button>
+    </div>
+    
+    
+    <script src="soundboard.js"></script>
+</body>
+</html>
